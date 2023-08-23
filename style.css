@@ -70,7 +70,7 @@ section .title::after{
     position: absolute;
     bottom: -8px;
     left: 50%;
-    font-size: 20px;
+    font-size: 15px;
     color: crimson;
     padding: 0 5px;
     background: #fff;
@@ -382,7 +382,18 @@ section .title::after{
 }
 /* teams section styling */
 .teams .title::after{
-    content: "Some Of My Work";
+    content: "Some of My Work";
+}
+.teams .title-content .column{
+    width: calc(50% - 30px);
+}
+teams .title-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+teams .title-content .left p{
+    text-align: justify;
 }
 .teams .carousel .card{
     background: #222;
@@ -897,7 +908,7 @@ footer span a:hover{
     height: auto;
     border-radius: 20px;
 }
-
+	
 
 .link {
     position: fixed;
