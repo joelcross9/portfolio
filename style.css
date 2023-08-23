@@ -272,7 +272,7 @@ section .title::after{
     content: "what i provide";
 }
 .services .serv-content .card{
-    width: calc(20% - 5px);
+    width: calc(10% - 2px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -882,7 +882,7 @@ footer span a:hover{
 }
 
 .container {
-    max-width: 70%;
+    max-width: 50%;
     margin: 0 auto;
     height: 100%;
 }
@@ -891,7 +891,7 @@ footer span a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3%;
-    margin: 5% 0;
+    margin: 10% 0;
 }
 
 .card {
